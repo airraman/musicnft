@@ -102,7 +102,7 @@ export default function Home() {
                               <MintButton collectionId="b197979c8f39" />
                               <MintButton collectionId="48c9ca3dfd60" />
                               <MintButton collectionId="f839d0c91ade" />
-                              <MintButton collectionId="162cd4ed2b30" />
+                              <MintButton collectionId="333c83305032" />
                             </div>
                           </div>
                         </div>
