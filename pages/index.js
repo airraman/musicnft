@@ -86,7 +86,7 @@ export default function Home() {
                       <div className="bg-white rounded-md shadow-2xl ring-1 ring-gray-900/10">
                         <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-6 sm:p-6 rounded-md">
                           <h2 className="text-xl font-bold tracking-tight text-gray-800 sm:text-2xl text-center">
-                            A limited-issue release of music Solana NFTs.
+                            A limited-issue release of music NFTs by the artist Raman Mama.
                           </h2>
 
                           <div className="-m-3 flex items-start rounded-lg p-3 transition duration-150 ease-in-out hover:bg-gray-50">
