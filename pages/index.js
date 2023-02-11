@@ -6,6 +6,7 @@ import { Work_Sans } from "@next/font/google";
 const work_sans = Work_Sans({ subsets: ["latin"] });
 import styles from "../styles/Home.module.css";
 import Script from 'next/script'
+import ReactPlayer from "react-player"
 
 export default function Home() {
   const account = useAccount();
@@ -82,12 +83,16 @@ export default function Home() {
                   </div>
 
                   <div className="mt-8 flow-root max-w-2xl m-auto">
+                  <p>
+                  The idea behind the project is to break the barriers betwween artists and fans. Fans are able to purchase an NFT of their favorite song by an artist, and interact with others who have formed a community based on the song. The potential here is immense. 
+                  </p><br></br>
                     <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4 bg-cyan-600">
                       <div className="bg-white rounded-md shadow-2xl ring-1 ring-gray-900/10">
                         <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-6 sm:p-6 rounded-md">
                           <h2 className="text-xl font-bold tracking-tight text-gray-800 sm:text-2xl text-center">
                             A limited-issue release of music NFTs by the artist Raman Mama.
                           </h2>
+                          
 
                           <div className="-m-3 flex items-start rounded-lg p-3 transition duration-150 ease-in-out hover:bg-gray-50">
                             <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-slate-600 text-white sm:h-12 sm:w-12">
@@ -105,6 +110,7 @@ export default function Home() {
                               <MintButton collectionId="333c83305032" />
                             </div>
                           </div>
+                          <ReactPlayer url="https://soundcloud.com/raman-mama/telegraph-ave?si=5dc4601c150f45a8a3c46a55da6560dd&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" />
                         </div>
                       </div>
                     </div>
