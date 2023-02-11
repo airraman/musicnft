@@ -97,7 +97,7 @@ export default function Home() {
                               />
                             </div>
                             <div className="ml-4">
-                              <MintButton collectionId="c1167a3a9f1e"/>
+                              <MintButton collectionId="3913b9a33e4b"/>
                               <MintButton collectionId="65fc36c9add8" />
                               <MintButton collectionId="b197979c8f39" />
                               <MintButton collectionId="48c9ca3dfd60" />
