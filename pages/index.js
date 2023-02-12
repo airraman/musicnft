@@ -110,7 +110,11 @@ export default function Home() {
                               <MintButton collectionId="333c83305032" />
                             </div>
                           </div>
-                          <ReactPlayer url="https://soundcloud.com/raman-mama/telegraph-ave?si=5dc4601c150f45a8a3c46a55da6560dd&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" />
+                          <div className='player-wrapper'>
+                          <ReactPlayer className='react-player' width={400} url="https://soundcloud.com/raman-mama/telegraph-ave?si=5dc4601c150f45a8a3c46a55da6560dd&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" />
+
+
+                          </div>
                         </div>
                       </div>
                     </div>
