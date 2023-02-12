@@ -111,7 +111,7 @@ export default function Home() {
                             </div>
                           </div>
                           <div className='player-wrapper'>
-                          <ReactPlayer className='react-player' width={400} url="https://soundcloud.com/raman-mama/telegraph-ave?si=5dc4601c150f45a8a3c46a55da6560dd&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" />
+                          <ReactPlayer className='react-player' width={300} url="https://soundcloud.com/raman-mama/telegraph-ave?si=5dc4601c150f45a8a3c46a55da6560dd&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" />
 
 
                           </div>
