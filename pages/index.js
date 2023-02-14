@@ -57,34 +57,37 @@ export default function Home() {
               <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl">
                   <h1 className="text-xl font-bold tracking-tight text-gray-900 sm:text-6xl text-center pt-px">
-                    RAMAN MAMA MUSIC NFT COLLECTION
+                    The Raman Mama NFT Store
                   </h1>
-                  <h1 className="text-xl font-bold tracking-tight text-gray-900 sm:text-6xl text-center pt-px text-cyan-600" >
+                  {/* <h1 className="text-xl font-bold tracking-tight text-gray-900 sm:text-6xl text-center pt-px text-cyan-600" >
                     <a href="https://docs.google.com/document/d/1KUTehmCr20yh8f0YcGVIgT2kLm0MMvTJ3U_lvtv2JRI/edit?usp=sharing">
                     CLICK ME: a note for my friends at Comet. 
                     </a>
-                  </h1 >
+                  </h1 > */}
                   <div className="marquee">
-                    <div className="marquee__group">
+                    {/* <div className="marquee__group">
                       <img src="../tape.jpeg" width="100px" />
                       <img src="../tape.jpeg" width="100px" />
                       <img src="../tape.jpeg" width="100px" />
                       <img src="../tape.jpeg" width="100px" />
                       <img src="../tape.jpeg" width="100px" />
-                    </div>
+                    </div> */}
 
-                    <div aria-hidden="true" class="marquee__group">
+                    {/* <div aria-hidden="true" class="marquee__group">
                       <img src="../tape.jpeg" width="100px" />
                       <img src="../tape.jpeg" width="100px" />
                       <img src="../tape.jpeg" width="100px" />
                       <img src="../tape.jpeg" width="100px" />
                       <img src="../tape.jpeg" width="100px" />
-                    </div>
+                    </div> */}
                   </div>
 
                   <div className="mt-8 flow-root max-w-2xl m-auto">
-                  <p>
+                  {/* <p>
                   The idea behind the project is to break the barriers betwween artists and fans. Fans are able to purchase an NFT of their favorite song by an artist, and interact with others who have formed a community based on the song. Solana has emerged as the preferred blockchain for the music industry, as shown by Coachella's 2022 NFTs. 
+                  </p><br></br> */}
+                  <p>
+                  Purchase an NFT of a song below for access to exlusive events and apparell drops. 
                   </p><br></br>
                     <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4 bg-cyan-600">
                       <div className="bg-white rounded-md shadow-2xl ring-1 ring-gray-900/10">
